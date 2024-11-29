@@ -4,17 +4,11 @@
 
 	let projects = [
 		{
-			name: 'Portfolio',
-			description: 'A portfolio website built using SvelteKit and TailwindCSS.',
-			link: 'https://github.com/SmithJaedon/portfolio',
-			badges: ['SvelteKit', 'TailwindCSS', 'JavaScript']
-		},
-		{
-			name: 'Todo App',
+			name: 'Portfolio Webiste',
 			description:
-				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non provident ex modi, praesentium laudantium iste veritatis dolore odio molestiae temporibus debitis ipsum nobis, ab suscipit ratione. Molestiae dicta commodi tempore? Ducimus, nesciunt velit! Voluptates omnis sed harum consequuntur illo temporibus aspernatur atque eveniet tempora. Blanditiis corporis, id ducimus molestias eius molestiae est perferendis beatae eaque ex modi obcaecati rerum fugiat!',
-			link: 'https://github.com/SmithJaedon/todo-app',
-			badges: ['SvelteKit', 'TailwindCSS', 'JavaScript']
+				'A portfolio website built using SvelteKit and TailwindCSS. You are currently viewing it!',
+			link: 'https://github.com/Smithjaedon/newPortfolio',
+			badges: ['SvelteKit', 'TailwindCSS', 'JavaScript', 'Vite', 'Vercel']
 		}
 	];
 
