@@ -11,7 +11,8 @@
 		},
 		{
 			name: 'Todo App',
-			description: 'A simple todo app built using SvelteKit and TailwindCSS.',
+			description:
+				'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non provident ex modi, praesentium laudantium iste veritatis dolore odio molestiae temporibus debitis ipsum nobis, ab suscipit ratione. Molestiae dicta commodi tempore? Ducimus, nesciunt velit! Voluptates omnis sed harum consequuntur illo temporibus aspernatur atque eveniet tempora. Blanditiis corporis, id ducimus molestias eius molestiae est perferendis beatae eaque ex modi obcaecati rerum fugiat!',
 			link: 'https://github.com/SmithJaedon/todo-app',
 			badges: ['SvelteKit', 'TailwindCSS', 'JavaScript']
 		}
@@ -61,14 +62,16 @@
 		<div class="flex justify-center items-center h-[80vh]">
 			<div class="text-center">
 				<h2 class="text-6xl text-slate-300">Projects</h2>
-				{#each projects as project}
-					<ProjectCard
-						project_name={project.name}
-						project_description={project.description}
-						project_link={project.link}
-						project_badges={project.badges}
-					/>
-				{/each}
+				<div class="container mx-auto grid grid-cols-1 gap-4 mt-10">
+					{#each projects as project}
+						<ProjectCard
+							project_name={project.name}
+							project_description={project.description}
+							project_link={project.link}
+							project_badges={project.badges}
+						/>
+					{/each}
+				</div>
 			</div>
 		</div>
 	</section>
